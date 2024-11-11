@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./js/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Shop</title>
+</head>
+
+<body>
+
+    <!-- Sematic - html da qonun qoidalari sematikada yoziladi : header main section footer la hisblanadi -->
+    <!-- html5 ni talablariga binoan tuziladi -->
+
+    <!-- header bosh qismi -->
+    <header>
+        <div class="menutop">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto">
+                        <div class="menutoptext">
+                            <p>наш номер: +998907417839</p>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="header_account">
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    UZB
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">RUS</a></li>
+                                    <li><a class="dropdown-item" href="#">ENG/a></li>
+                                    <li><a class="dropdown-item" href="#">UZB</a></li>
+                                </ul>
+                            </div>
+                            <div class="header_user">
+                                <i class="fas fa-user"></i>
+                                <span>мой акаунт</span>
+                            </div>
+                            <div class="header_search">
+                                <i class="fab fa-searchengin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mens_shop">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-2 text-center">
+                        <a href="#" class="logo">Mens Shop</a>
+                    </div>
+                    <div class="col-lg-8 col-md-12">
+                        <div class="row justify-content-sm-center justify-content-md-between align-items-center ">
+                            <div class="col-lg-8 col-md-7">
+                                <nav>
+                                    <ul class="shopmenu">
+                                        <li><a href="#">Главная</a></li>
+                                        <li><a href="#">Ассортимент</a></li>
+                                        <li><a href="#">Что жарко?</a></li>
+                                        <li><a href="#">Скидки</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="shopcard">
+                                    <div class="dropdown">
+                                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Ваша карта
+                                        </a>
+
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <li><a class="dropdown-item" href="#">Payme</a></li>
+                                            <li><a class="dropdown-item" href="#">Click</a></li>
+                                            <li><a class="dropdown-item" href="#">Oson</a></li>
+                                        </ul>
+                                    </div>
+                                    <button class="cardbtn">
+                                        <i class="fas fa-shopping-bag"></i>
+                                        <span>0 ПОКУПОК | $ 0</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_slider">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div class="slider_title">
+                                        <h1>MENS
+                                            COLLECTION</h1>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                Купить сейчас
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <!-- Dropdown menu links -->
+                                            </ul>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-sm-none d-md-block">
+                                    <div class="sliderimg">
+                                        <img src="./img/man2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div class="slider_title">
+                                        <h1>MENS
+                                            COLLECTION</h1>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                Купить сейчас
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <!-- Dropdown menu links -->
+                                            </ul>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-sm-none d-md-block">
+                                    <div class="sliderimg">
+                                        <img src="./img/man2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div class="slider_title">
+                                        <h1>MENS
+                                            COLLECTION</h1>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                Купить сейчас
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <!-- Dropdown menu links -->
+                                            </ul>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-sm-none d-md-block">
+                                    <div class="sliderimg">
+                                        <img src="./img/man2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div class="slider_title">
+                                        <h1>MENS
+                                            COLLECTION</h1>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                Купить сейчас
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <!-- Dropdown menu links -->
+                                            </ul>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-sm-none d-md-block">
+                                    <div class="sliderimg">
+                                        <img src="./img/man2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div class="slider_title">
+                                        <h1>MENS
+                                            COLLECTION</h1>
+                                        <div class="btn-group dropend">
+                                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                Купить сейчас
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <!-- Dropdown menu links -->
+                                            </ul>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-sm-none d-md-block">
+                                    <div class="sliderimg">
+                                        <img src="./img/man2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- main asosiy qism -->
+    <main>
+        <div class="main_top">
+            <div class="container">
+                <div class="row justify-content-sm-center justify-content-md-between align-items-center">
+                    <div class="col-auto">
+                        <form class="main_form" action="#">
+                            <label for="name">Email </label>
+                            <input type="text" id="name" placeholder="emailingizni kiriting">
+                        </form>
+                    </div>
+                    <div class="col-auto">
+                        <div class="main_social">
+                            <span>Наши соц сети </span>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_brands">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-5">
+                        <div class="card_img">
+                            <img src="./img/Item1.png" alt="#">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 d-flex flex-column justify-content-between">
+                        <div class="card_img">
+                            <img src="./img/item2.png" alt="#">
+                        </div>
+                        <div class="card_img">
+                            <img src="./img/item3.png" alt="#">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="card_img">
+                            <img src="./img/item4.png" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab_product">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-7 col-sm-10">
+                        <div class="list-group" id="myList" role="tablist">
+                            <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#hot"
+                                role="tab">Что жарко?</a>
+                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#designer"
+                                role="tab">Дизайнеры</a>
+                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#collection"
+                                role="tab">Коллекции</a>
+                            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#sale"
+                                role="tab">Скидки</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content">
+
+                <div class="tab-pane active" id="hot" role="tabpanel">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card1.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">рубашка белая</h5>
+                                            <span>$30.00</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card2.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">ПИДЖАК</h5>
+                                            <span>$60.00</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">плащ</h5>
+                                            <span>$70.00</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card4.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Брюки</h5>
+                                            <span>$21.50</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="designer" role="tabpanel">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/Model3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">рубашка белая</h5>
+                                            <span>$30.00</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card2.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">ПИДЖАК</h5>
+                                            <span>$60.00</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">плащ</h5>
+                                            <span>$70.00</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card4.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Брюки</h5>
+                                            <span>$21.50</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="collection" role="tabpanel">
+
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card1.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">рубашка белая</h5>
+                                            <span>$30.00</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card2.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">ПИДЖАК</h5>
+                                            <span>$60.00</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">плащ</h5>
+                                            <span>$70.00</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card4.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Брюки</h5>
+                                            <span>$21.50</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane" id="sale" role="tabpanel">
+
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/Model3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">рубашка белая</h5>
+                                            <span>$30.00</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card2.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">ПИДЖАК</h5>
+                                            <span>$60.00</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">плащ</h5>
+                                            <span>$70.00</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="cardmain">
+                                    <div class="card">
+                                        <img src="./img/card4.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Брюки</h5>
+                                            <span>$21.50</span>
+                                            <div class="btn-group dropend">
+                                                <button type="button" class="btn dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Купить сейчас
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <!-- Dropdown menu links -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </main>
+
+
+    <!-- section -->
+    <section class="sale_brands">
+        <div class="container">
+            <div class="saleimg text-center">
+                <img src="./img/sale.png" alt="pic">
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="cardmain">
+                        <div class="card">
+                            <img src="./img/items.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Комплект</h5>
+                                <span>$164.95</span>
+                                <div class="btn-group dropend">
+                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Купить сейчас
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <!-- Dropdown menu links -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="cardmain">
+                        <div class="card">
+                            <img src="./img/items-02.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">куртка</h5>
+                                <span>$76.95</span>
+                                <div class="btn-group dropend">
+                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Купить сейчас
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <!-- Dropdown menu links -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="cardmain">
+                        <div class="card">
+                            <img src="./img/items-03.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">GOODING SHORTS</h5>
+                                <span>$79.95</span>
+                                <div class="btn-group dropend">
+                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Купить сейчас
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <!-- Dropdown menu links -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="cardmain">
+                        <div class="card">
+                            <img src="./img/items.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Комплект</h5>
+                                <span>$110</span>
+                                <div class="btn-group dropend">
+                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Купить сейчас
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <!-- Dropdown menu links -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="imgbrands">
+            <div class="container">
+                <h4>favourite brands</h4>
+                <ul>
+                    <li><img src="./img/Layer 1.png" alt="..."></li>
+                    <li><img src="./img/Layer 2.png" alt="..."></li>
+                    <li><img src="./img/Layer 3.png" alt="..."></li>
+                    <li><img src="./img/Layer 4.png" alt="..."></li>
+                    <li><img src="./img/Layer 5.png" alt="..."></li>
+                    <li><img src="./img/Layer 6.png" alt="..."></li>
+                    <li><img src="./img/Layer 7.png" alt="..."></li>
+                    <li><img src="./img/Layer 1.png" alt="..."></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="textsale">
+                        <h2>ПОДРОБНЕЕ О MANS SHOP</h2>
+                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                            nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                            ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                            consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia
+                            nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus
+                            condimentum sit amet a augue.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer podval qismi -->
+    <footer>
+        <div class="container">
+
+            <div class="row justify-content-between">
+                <div class="col-lg-7 cl-md-7">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-6 col-sm-3">
+                            <div class="footer_about">
+                                <h4>Наш сервис</h4>
+                                <ul>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Terms of payment</a></li>
+                                    <li><a href="#">Terms of sale</a></li>
+                                    <li><a href="#">Delivery terms and conditions</a></li>
+                                    <li><a href="#">Returns and Refunds</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-3">
+                            <div class="footer_about">
+                                <h4>Информация</h4>
+                                <ul>
+                                    <li><a href="#">Affiliate</a></li>
+                                    <li><a href="#">Cookies </a></li>
+                                    <li><a href="#">How to Shop</a></li>
+                                    <li><a href="#">About Nelly</a></li>
+                                    <li><a href="#">Investor relations</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-3 mt-md-3">
+                            <div class="footer_about">
+                                <h4>Компании</h4>
+                                <ul>
+                                    <li><a href="#">Evening dresses</a></li>
+                                    <li><a href="#">Makeup</a></li>
+                                    <li><a href="#">Fashion forward</a></li>
+                                    <li><a href="#">Training clothes</a></li>
+                                    <li><a href="#">Special Occasion Dresses</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-3">
+                            <div class="footer_about">
+                                <h4>История</h4>
+                                <ul>
+                                    <li><a href="#">Paris</a></li>
+                                    <li><a href="#">New York</a></li>
+                                    <li><a href="#">London</a></li>
+                                    <li><a href="#">Madrid</a></li>
+                                    <li><a href="#">Tokio</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-md-3 mt-sm-3">
+                    <div class="footer_social">
+                        <div class="footer_left">
+                            <h4>Соц сети</h4>
+                            <div class="socials">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-square"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-tumblr-square"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer_right">
+                            <img src="./img/secured.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="footerbot">
+                
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto">
+                        
+                        <ul class="fb_menu">
+                            <li><a href="#">Privacy & Cookies</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                            <li><a href="#">Store Directory</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                        
+                    </div>
+
+                    <div class="col-auto">
+                        <div class="fb_text">
+                            <a href="#">© MensShop.com</a>
+                            <p>All Rights Reserved</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
